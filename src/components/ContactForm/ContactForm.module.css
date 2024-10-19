@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0px 20px 20px;
+  margin-bottom: 25px;
+  min-width: calc(var(--form-min-width) - var(--form-padding) * 2);
+}
+.title {
+  margin-top: 20px;
+}
+
+.field {
+  border: 1px solid grey;
+  border-radius: 5px;
+  min-height: 30px;
+}
+
+.formBtn {
+  margin-top: 20px;
+  font-size: 18px;
+  width: max-content;
+  padding: 5px 10px;
+  align-self: center;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.message {
+  margin-top: 3px;
+  color: red;
+}

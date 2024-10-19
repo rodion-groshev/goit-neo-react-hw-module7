@@ -1,0 +1,13 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  min-width: 335px;
+  
+}
+
+.search input {
+  border: 2px solid black;
+  border-radius: 5px;
+  min-height: 25px;
+}

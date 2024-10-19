@@ -1,0 +1,13 @@
+@media screen and (min-width: 768px) {
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .list {
+    column-gap: 7px;
+  }
+}
